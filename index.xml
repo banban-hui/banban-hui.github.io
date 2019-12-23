@@ -6,10 +6,27 @@
     <description>Recent content on 般般的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 23 Dec 2019 15:20:45 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 16:15:48 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何使用hugo在github写博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E5%86%99%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 23 Dec 2019 16:15:48 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E5%86%99%E5%8D%9A%E5%AE%A2/</guid>
+      <description> 如何使用hugo在github写博客 需要使用的工具 VSCode + Git + MD + GitHub
+安装hugo  官方教程
+ Mac安装方式
+brew install hugo hugo version  Windows安装方式
+ 在Hugo releases 页面下载hugo_x.xx.x_Windows-64bit.zip
+ 解压，把hugo.exe放在D:\Software\hugo\hugo.exe
+ 把D:\Software\hugo\加到PATH
+ 重启终端，运行hugo version 查看版本
+  快速搭建博客  进入hugo官网，点击Quick Start 快速开始 从Step 2 开始抄代码，直到 Step 7 得到一个public目录，这就是我们的博客站点 hugo server -D 可以预览草稿 hugo server 可以预览非草稿 上传到github   （资料来源：饥人谷）  </description>
+    </item>
     
     <item>
       <title>第二篇博客</title>
