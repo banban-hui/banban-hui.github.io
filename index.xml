@@ -6,10 +6,45 @@
     <description>Recent content on 般般的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 23 Dec 2019 16:15:48 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 12:56:28 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML常用标签</title>
+      <link>http://example.org/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Wed, 25 Dec 2019 12:56:28 +0800</pubDate>
+      
+      <guid>http://example.org/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>a标签 属性 href href 的取值 1. 网址 例：
+https://baidu.com
+http://baidu.com
+//baidu.com
+&amp;lt;a href=&amp;quot;//baidu.com&amp;quot;&amp;gt;百度&amp;lt;/a&amp;gt;   路径
+/a/b/c.html 以及 a/b/c.html 例：
+&amp;lt;a href=&amp;quot;/a/b/c.html&amp;quot;&amp;gt;c.html&amp;lt;/a&amp;gt;  直接指向文件：index.html以及 ./index.html 例：
+&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;index&amp;lt;/a&amp;gt;  伪协议
+ javascript:; 如果你想做一个没有功能的a标签
+&amp;lt;a href=&amp;quot;javascript:;&amp;quot;&amp;gt;查看&amp;lt;/a&amp;gt;  加id
+&amp;lt;a href=&amp;quot;xxx&amp;quot;&amp;gt;查看&amp;lt;/a&amp;gt; //xxx是id  mailto 邮箱
+&amp;lt;a href=&amp;quot;xxxx.@126.com&amp;quot;&amp;gt;邮箱&amp;lt;/a&amp;gt;  Tel 电话
+&amp;lt;a href=&amp;quot;189xxxxxxxx&amp;quot;&amp;gt;电话&amp;lt;/a&amp;gt;  target a标签target的取值
+  _blank 表示在新的的窗口打页面 例：
+&amp;lt;a href=&amp;quot;//baidu.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;百度&amp;lt;/a&amp;gt;  _self 表示在当前窗口打开页面
+ _top 表示在当前窗口的最顶层窗口打开页面
+ _parent 表示在操作窗口的上一层窗口打开页面</description>
+    </item>
+    
+    <item>
+      <title>HTML入门笔记1</title>
+      <link>http://example.org/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Tue, 24 Dec 2019 15:36:53 +0800</pubDate>
+      
+      <guid>http://example.org/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      <description> HTML入门笔记1 HTML的历史  1990年由英国的 Tim Berners-Lee 发明 我们的祖师爷就是李爵士 最初的HTML一共只有18个元素，最新版的HTML大约由110个标签  HTML的起手式  Emmet 感叹好
+&amp;lt;!DOCTYPE html&amp;gt; //文档类型 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; //html标签，可以改成&amp;quot;zh-CN&amp;quot; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt; //文件字符编码 &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt; //禁用溶放，兼容手机 &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot;&amp;gt;//告诉ie使用最新内核 &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; //标题 &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   章节标签 </description>
+    </item>
     
     <item>
       <title>如何使用hugo在github写博客</title>

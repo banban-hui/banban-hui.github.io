@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>般般的博客  | HTML常用标签</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.57.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="HTML常用标签" />
+<meta property="og:description" content="a标签 属性 href href 的取值 1. 网址 例：
+https://baidu.com
+http://baidu.com
+//baidu.com
+&lt;a href=&quot;//baidu.com&quot;&gt;百度&lt;/a&gt;   路径
+/a/b/c.html 以及 a/b/c.html 例：
+&lt;a href=&quot;/a/b/c.html&quot;&gt;c.html&lt;/a&gt;  直接指向文件：index.html以及 ./index.html 例：
+&lt;a href=&quot;index.html&quot;&gt;index&lt;/a&gt;  伪协议
+ javascript:; 如果你想做一个没有功能的a标签
+&lt;a href=&quot;javascript:;&quot;&gt;查看&lt;/a&gt;  加id
+&lt;a href=&quot;xxx&quot;&gt;查看&lt;/a&gt; //xxx是id  mailto 邮箱
+&lt;a href=&quot;xxxx.@126.com&quot;&gt;邮箱&lt;/a&gt;  Tel 电话
+&lt;a href=&quot;189xxxxxxxx&quot;&gt;电话&lt;/a&gt;  target a标签target的取值
+  _blank 表示在新的的窗口打页面 例：
+&lt;a href=&quot;//baidu.com&quot; target=&quot;_blank&quot;&gt;百度&lt;/a&gt;  _self 表示在当前窗口打开页面
+ _top 表示在当前窗口的最顶层窗口打开页面
+ _parent 表示在操作窗口的上一层窗口打开页面" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" />
+<meta property="article:published_time" content="2019-12-25T12:56:28+08:00" />
+<meta property="article:modified_time" content="2019-12-25T12:56:28+08:00" />
+<meta itemprop="name" content="HTML常用标签">
+<meta itemprop="description" content="a标签 属性 href href 的取值 1. 网址 例：
+https://baidu.com
+http://baidu.com
+//baidu.com
+&lt;a href=&quot;//baidu.com&quot;&gt;百度&lt;/a&gt;   路径
+/a/b/c.html 以及 a/b/c.html 例：
+&lt;a href=&quot;/a/b/c.html&quot;&gt;c.html&lt;/a&gt;  直接指向文件：index.html以及 ./index.html 例：
+&lt;a href=&quot;index.html&quot;&gt;index&lt;/a&gt;  伪协议
+ javascript:; 如果你想做一个没有功能的a标签
+&lt;a href=&quot;javascript:;&quot;&gt;查看&lt;/a&gt;  加id
+&lt;a href=&quot;xxx&quot;&gt;查看&lt;/a&gt; //xxx是id  mailto 邮箱
+&lt;a href=&quot;xxxx.@126.com&quot;&gt;邮箱&lt;/a&gt;  Tel 电话
+&lt;a href=&quot;189xxxxxxxx&quot;&gt;电话&lt;/a&gt;  target a标签target的取值
+  _blank 表示在新的的窗口打页面 例：
+&lt;a href=&quot;//baidu.com&quot; target=&quot;_blank&quot;&gt;百度&lt;/a&gt;  _self 表示在当前窗口打开页面
+ _top 表示在当前窗口的最顶层窗口打开页面
+ _parent 表示在操作窗口的上一层窗口打开页面">
+
+
+<meta itemprop="datePublished" content="2019-12-25T12:56:28&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-25T12:56:28&#43;08:00" />
+<meta itemprop="wordCount" content="190">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HTML常用标签"/>
+<meta name="twitter:description" content="a标签 属性 href href 的取值 1. 网址 例：
+https://baidu.com
+http://baidu.com
+//baidu.com
+&lt;a href=&quot;//baidu.com&quot;&gt;百度&lt;/a&gt;   路径
+/a/b/c.html 以及 a/b/c.html 例：
+&lt;a href=&quot;/a/b/c.html&quot;&gt;c.html&lt;/a&gt;  直接指向文件：index.html以及 ./index.html 例：
+&lt;a href=&quot;index.html&quot;&gt;index&lt;/a&gt;  伪协议
+ javascript:; 如果你想做一个没有功能的a标签
+&lt;a href=&quot;javascript:;&quot;&gt;查看&lt;/a&gt;  加id
+&lt;a href=&quot;xxx&quot;&gt;查看&lt;/a&gt; //xxx是id  mailto 邮箱
+&lt;a href=&quot;xxxx.@126.com&quot;&gt;邮箱&lt;/a&gt;  Tel 电话
+&lt;a href=&quot;189xxxxxxxx&quot;&gt;电话&lt;/a&gt;  target a标签target的取值
+  _blank 表示在新的的窗口打页面 例：
+&lt;a href=&quot;//baidu.com&quot; target=&quot;_blank&quot;&gt;百度&lt;/a&gt;  _self 表示在当前窗口打开页面
+ _top 表示在当前窗口的最顶层窗口打开页面
+ _parent 表示在操作窗口的上一层窗口打开页面"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      般般的博客
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">HTML常用标签</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-12-25T12:56:28&#43;08:00">December 25, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h1 id="a标签">a标签</h1>
+
+<h2 id="属性">属性</h2>
+
+<h3 id="href">href</h3>
+
+<p>href 的取值
+1. 网址
+例：</p>
+
+<p><a href="https://baidu.com">https://baidu.com</a><br />
+   <a href="http://baidu.com">http://baidu.com</a><br />
+   //baidu.com</p>
+
+<pre><code class="language-html">&lt;a href=&quot;//baidu.com&quot;&gt;百度&lt;/a&gt;
+</code></pre>
+
+<ol>
+<li><p>路径<br />
+/a/b/c.html 以及 a/b/c.html
+例：</p>
+
+<pre><code class="language-html">&lt;a href=&quot;/a/b/c.html&quot;&gt;c.html&lt;/a&gt;
+</code></pre>
+
+<p>直接指向文件：index.html以及 ./index.html
+例：</p>
+
+<pre><code class="language-html">&lt;a href=&quot;index.html&quot;&gt;index&lt;/a&gt;
+</code></pre></li>
+
+<li><p>伪协议</p>
+
+<ul>
+<li><p>javascript:; 如果你想做一个没有功能的a标签</p>
+
+<pre><code class="language-html">&lt;a href=&quot;javascript:;&quot;&gt;查看&lt;/a&gt;
+</code></pre></li>
+
+<li><p>加id</p>
+
+<pre><code class="language-html">&lt;a href=&quot;xxx&quot;&gt;查看&lt;/a&gt;   //xxx是id
+</code></pre></li>
+
+<li><p>mailto 邮箱</p>
+
+<pre><code class="language-html">&lt;a href=&quot;xxxx.@126.com&quot;&gt;邮箱&lt;/a&gt;
+</code></pre></li>
+
+<li><p>Tel 电话</p>
+
+<pre><code class="language-html">&lt;a href=&quot;189xxxxxxxx&quot;&gt;电话&lt;/a&gt;
+</code></pre>
+
+<h3 id="target">target</h3>
+
+<p>a标签target的取值</p></li>
+</ul></li>
+
+<li><p>_blank   表示在新的的窗口打页面 例：</p>
+
+<pre><code class="language-html">&lt;a href=&quot;//baidu.com&quot; target=&quot;_blank&quot;&gt;百度&lt;/a&gt;
+</code></pre></li>
+
+<li><p>_self    表示在当前窗口打开页面</p></li>
+
+<li><p>_top     表示在当前窗口的最顶层窗口打开页面</p></li>
+
+<li><p>_parent  表示在操作窗口的上一层窗口打开页面</p></li>
+</ol>
+
+<p>程序员的命名
+* window的name
+* iframe的name    用于嵌套窗口</p>
+
+<h1 id="table-标签">table 标签</h1>
+
+<h2 id="table-里面只有三个东西">table 里面只有三个东西</h2>
+
+<ol>
+<li><code>&lt;thead&gt;&lt;/thead&gt;</code>   表头</li>
+<li><code>&lt;tbody&gt;&lt;/tbody&gt;</code>   表体</li>
+<li><code>&lt;tfoot&gt;&lt;/tbody&gt;</code>   表尾</li>
+<li><code>&lt;tr&gt;&lt;/tr&gt;</code>表行</li>
+<li><code>&lt;th&gt;&lt;/th&gt;</code>表标题</li>
+<li><code>&lt;td&gt;&lt;/td&gt;</code>表数据</li>
+</ol>
+
+<p>例：下面一个成绩单的表主要代码</p>
+
+<pre><code class="language-html">&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;&lt;/th&gt;
+            &lt;th&gt;小红&lt;/th&gt;
+            &lt;th&gt;小明&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th&gt;语文&lt;/th&gt;
+            &lt;td&gt;90&lt;/td&gt;
+            &lt;td&gt;80&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;数学&lt;/th&gt;
+            &lt;td&gt;60&lt;/td&gt;
+            &lt;td&gt;70&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;th&gt;总分&lt;/th&gt;
+            &lt;td&gt;150&lt;/td&gt;
+            &lt;td&gt;150&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;
+</code></pre>
+
+<h1 id="img-标签">img 标签</h1>
+
+<p>作用：发出get请求，展示一张图片</p>
+
+<h2 id="属性-1">属性</h2>
+
+<ol>
+<li>alt 加载失败时，可以添加文字提示用户</li>
+<li>height 高</li>
+<li>width 宽    注：只写高度，宽度会自适应，反之一样，不让图片变形的方法之一</li>
+
+<li><p>src 图片的地址</p>
+
+<h2 id="事件">事件</h2></li>
+
+<li><p>onload/onerror 监听图片是否加载成功</p></li>
+</ol>
+
+<h3 id="使图片在手机上正常显示">使图片在手机上正常显示</h3>
+
+<pre><code class="language-html">&lt;style&gt;
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    img{
+        max-width:100%;
+    }
+&lt;/style&gt;
+</code></pre>
+
+<h1 id="form-标签">form 标签</h1>
+
+<p>作用：向后端发出一个请求，刷新页面</p>
+
+<h2 id="属性-2">属性</h2>
+
+<ol>
+<li>action 请求的地址</li>
+<li>method 请求的方式get/post</li>
+<li>autocomplete 输入框有提示输入</li>
+
+<li><p>target 在哪打开页面</p>
+
+<h2 id="事件-1">事件</h2>
+
+<p>on submit</p></li>
+</ol>
+
+<h3 id="input-和-button-的区别">input 和 button 的区别</h3>
+
+<ol>
+<li>input里面只能传文本</li>
+<li>button里面可以加其他标签或图片</li>
+</ol>
+
+<h1 id="input-标签">input 标签</h1>
+
+<p>##常用属性
+* test 输入文本
+* color 选择颜色
+* radio 单选项
+* checkbox 复选项
+* file 上传单个文件
+* <code>&lt;input type=&quot;file&quot; multiple /&gt;</code>上传多个文件
+* hidden 看不到的输入框</p>
+
+<p>textarea 多行文本输入框</p>
+
+<p>select  多选一</p>
+
+<h2 id="事件-2">事件</h2>
+
+<p>onchange</p>
+
+<p>onfocus</p>
+
+<p>onblur</p>
+
+<h1 id="注意事项">注意事项</h1>
+
+<ol>
+<li>一般不监听input的click事件的</li>
+<li>form里面的input要有name</li>
+<li>form里面要放一个type=submit才能触发submit事件</li>
+</ol>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 般般的博客
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
