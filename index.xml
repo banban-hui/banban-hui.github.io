@@ -37,13 +37,13 @@ http://baidu.com
     </item>
     
     <item>
-      <title>HTML入门笔记1</title>
+      <title>HTML入门笔记</title>
       <link>banban-hui.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Tue, 24 Dec 2019 15:36:53 +0800</pubDate>
       
       <guid>banban-hui.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
-      <description> HTML入门笔记1 HTML的历史  1990年由英国的 Tim Berners-Lee 发明 我们的祖师爷就是李爵士 最初的HTML一共只有18个元素，最新版的HTML大约由110个标签  HTML的起手式  Emmet 感叹好
-&amp;lt;!DOCTYPE html&amp;gt; //文档类型 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; //html标签，可以改成&amp;quot;zh-CN&amp;quot; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt; //文件字符编码 &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt; //禁用溶放，兼容手机 &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot;&amp;gt;//告诉ie使用最新内核 &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; //标题 &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   章节标签 </description>
+      <description>HTML入门笔记1 HTML的历史  1990年由英国的 Tim Berners-Lee 发明 我们的祖师爷就是李爵士 最初的HTML一共只有18个元素，最新版的HTML大约由110个标签  HTML的起手式  Emmet 感叹好
+&amp;lt;!DOCTYPE html&amp;gt; //文档类型 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; //html标签，可以改成&amp;quot;zh-CN&amp;quot; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt; //文件字符编码 &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt; //禁用溶放，兼容手机 &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot;&amp;gt;//告诉ie使用最新内核 &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; //标题 &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   章节标签  h1 ~ h6 表示不同等级的标题，h1最高 section 表示新开启的章节 p 表示段落 header 表示头部，如：顶部广告 footer 表示脚部，如：版权声明&amp;rdquo;&amp;amp;copy&amp;rdquo; main 表示主要内容 aside 表示次要内容，如资料来源 div 表示划分，div包含的内容是一整块  全局属性 所有标签都有的属性 * class 给标签分一个类 * contenteditable 使元素在页面可以直接被编辑 * hidden 使元素看不见 * id 给标签分一个id * style 给元素一个style，js的style优先级最高 * tabindex 控制TAB键的顺序，等于正整数表示顺序，等于0表示最后访问，等于-1表示别访问 * title 显示完整的内容</description>
     </item>
     
     <item>
