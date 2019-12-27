@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>般般的博客</title>
-    <link>http://liuronghui.xyz/</link>
+    <link>banban-hui.github.io/</link>
     <description>Recent content on 般般的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Wed, 25 Dec 2019 12:56:28 +0800</lastBuildDate>
     
-	<atom:link href="http://liuronghui.xyz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="banban-hui.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML常用标签</title>
-      <link>http://liuronghui.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <link>banban-hui.github.io/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Wed, 25 Dec 2019 12:56:28 +0800</pubDate>
       
-      <guid>http://liuronghui.xyz/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <guid>banban-hui.github.io/posts/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
       <description>a标签 属性 href href 的取值 1. 网址 例：
 https://baidu.com
 http://baidu.com
@@ -38,20 +38,20 @@ http://baidu.com
     
     <item>
       <title>HTML入门笔记1</title>
-      <link>http://liuronghui.xyz/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <link>banban-hui.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Tue, 24 Dec 2019 15:36:53 +0800</pubDate>
       
-      <guid>http://liuronghui.xyz/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      <guid>banban-hui.github.io/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
       <description> HTML入门笔记1 HTML的历史  1990年由英国的 Tim Berners-Lee 发明 我们的祖师爷就是李爵士 最初的HTML一共只有18个元素，最新版的HTML大约由110个标签  HTML的起手式  Emmet 感叹好
 &amp;lt;!DOCTYPE html&amp;gt; //文档类型 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; //html标签，可以改成&amp;quot;zh-CN&amp;quot; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt; //文件字符编码 &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt; //禁用溶放，兼容手机 &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot;&amp;gt;//告诉ie使用最新内核 &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; //标题 &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   章节标签 </description>
     </item>
     
     <item>
       <title>如何使用hugo在github写博客</title>
-      <link>http://liuronghui.xyz/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E5%86%99%E5%8D%9A%E5%AE%A2/</link>
+      <link>banban-hui.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E5%86%99%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 23 Dec 2019 16:15:48 +0800</pubDate>
       
-      <guid>http://liuronghui.xyz/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E5%86%99%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>banban-hui.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github%E5%86%99%E5%8D%9A%E5%AE%A2/</guid>
       <description> 如何使用hugo在github写博客 需要使用的工具 VSCode + Git + MD + GitHub
 安装hugo  官方教程
  Mac安装方式
@@ -65,19 +65,19 @@ brew install hugo hugo version  Windows安装方式
     
     <item>
       <title>第二篇博客</title>
-      <link>http://liuronghui.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>banban-hui.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 23 Dec 2019 15:20:45 +0800</pubDate>
       
-      <guid>http://liuronghui.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>banban-hui.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>我的第二篇博客 我学会了上传第二篇博客</description>
     </item>
     
     <item>
       <title>开博大吉</title>
-      <link>http://liuronghui.xyz/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>banban-hui.github.io/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Mon, 23 Dec 2019 00:49:27 +0800</pubDate>
       
-      <guid>http://liuronghui.xyz/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <guid>banban-hui.github.io/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
       <description>大家好 我的博客开通了，希望我能写出好的文章给大家看。</description>
     </item>
     
